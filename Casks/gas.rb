@@ -21,4 +21,13 @@ cask "gas" do
     "~/Library/Application Support/gas",
     "~/Library/Preferences/com.gilad.agentusage.plist",
   ]
+
+  caveats <<~EOS
+    gas is free and open source, so it isn't notarized by Apple.
+    The first time you open it, macOS blocks it. To allow it:
+      1. Open gas from Applications, and click Done when macOS warns you.
+      2. Open System Settings → Privacy & Security.
+      3. Scroll to Security, and click "Open Anyway" next to gas.
+    gas then lives in the menu bar and updates itself.
+  EOS
 end
