@@ -1,6 +1,6 @@
 cask "gas" do
-  version "1.0.31"
-  sha256 "58fa24869fe9d33c4cc88c725b39a1bb598cb34ac7f373e4cacf209df9e29acb"
+  version "1.0.32"
+  sha256 "e5653b2107c57e00f9bb44e3d5aa0270e2b3bde36efab15225c692a81636e36b"
 
   url "https://github.com/gilador/gas/releases/download/v#{version}/gas-#{version}.dmg"
   name "gas"
